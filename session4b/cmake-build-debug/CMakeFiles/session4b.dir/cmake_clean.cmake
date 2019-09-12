@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/session4b.dir/main.cpp.obj"
+  "CMakeFiles/session4b.dir/ejercicio_3.cpp.obj"
   "session4b.pdb"
   "session4b.exe"
   "session4b.exe.manifest"

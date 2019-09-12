@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/daniel.quispe/Desktop/ventana/ec1-Dansan0/session4b/ejercicio 3.cpp">
+			<Option target="session4b"/>
+		</Unit>
 		<Unit filename="C:/Users/daniel.quispe/Desktop/ventana/ec1-Dansan0/session4b/main.cpp">
 			<Option target="session4b"/>
 		</Unit>

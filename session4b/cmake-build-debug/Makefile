@@ -122,6 +122,33 @@ session4b/fast:
 	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/build
 .PHONY : session4b/fast
 
+ejercicio_3.obj: ejercicio_3.cpp.obj
+
+.PHONY : ejercicio_3.obj
+
+# target to build an object file
+ejercicio_3.cpp.obj:
+	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/ejercicio_3.cpp.obj
+.PHONY : ejercicio_3.cpp.obj
+
+ejercicio_3.i: ejercicio_3.cpp.i
+
+.PHONY : ejercicio_3.i
+
+# target to preprocess a source file
+ejercicio_3.cpp.i:
+	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/ejercicio_3.cpp.i
+.PHONY : ejercicio_3.cpp.i
+
+ejercicio_3.s: ejercicio_3.cpp.s
+
+.PHONY : ejercicio_3.s
+
+# target to generate assembly for a file
+ejercicio_3.cpp.s:
+	$(MAKE) -f CMakeFiles\session4b.dir\build.make CMakeFiles/session4b.dir/ejercicio_3.cpp.s
+.PHONY : ejercicio_3.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... session4b
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ejercicio_3.obj
+	@echo ... ejercicio_3.i
+	@echo ... ejercicio_3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
