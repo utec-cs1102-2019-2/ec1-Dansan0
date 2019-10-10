@@ -1,4 +1,5 @@
 C:/Users/daniel.quispe/Desktop/ec1-Dansan0/seccion8b/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/daniel.quispe/Desktop/ec1-Dansan0/seccion8b/cmake-build-debug/CMakeFiles/2.dir
 C:/Users/daniel.quispe/Desktop/ec1-Dansan0/seccion8b/cmake-build-debug/CMakeFiles/seccion8b.dir
 C:/Users/daniel.quispe/Desktop/ec1-Dansan0/seccion8b/cmake-build-debug/CMakeFiles/1.dir
 C:/Users/daniel.quispe/Desktop/ec1-Dansan0/seccion8b/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 2
+
+# Build rule for target.
+2 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2
+.PHONY : 2
+
+# fast build rule for target.
+2/fast:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
+.PHONY : 2/fast
+
+#=============================================================================
 # Target rules for targets named seccion8b
 
 # Build rule for target.
@@ -134,6 +147,33 @@ seccion8b/fast:
 1/fast:
 	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
+
+ejercicio2.obj: ejercicio2.cpp.obj
+
+.PHONY : ejercicio2.obj
+
+# target to build an object file
+ejercicio2.cpp.obj:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/ejercicio2.cpp.obj
+.PHONY : ejercicio2.cpp.obj
+
+ejercicio2.i: ejercicio2.cpp.i
+
+.PHONY : ejercicio2.i
+
+# target to preprocess a source file
+ejercicio2.cpp.i:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/ejercicio2.cpp.i
+.PHONY : ejercicio2.cpp.i
+
+ejercicio2.s: ejercicio2.cpp.s
+
+.PHONY : ejercicio2.s
+
+# target to generate assembly for a file
+ejercicio2.cpp.s:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/ejercicio2.cpp.s
+.PHONY : ejercicio2.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -196,9 +236,13 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... rebuild_cache
+	@echo ... 2
 	@echo ... seccion8b
 	@echo ... 1
 	@echo ... edit_cache
+	@echo ... ejercicio2.obj
+	@echo ... ejercicio2.i
+	@echo ... ejercicio2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

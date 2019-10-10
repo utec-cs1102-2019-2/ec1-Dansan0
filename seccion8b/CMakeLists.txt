@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(seccion8b main.cpp)
 add_executable(1 xd.cpp)
+add_executable(2 ejercicio2.cpp)
